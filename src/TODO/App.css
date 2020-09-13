@@ -144,3 +144,8 @@ body {
   margin-top: 18px;
   font-size: 15px;
 }
+@media (max-width: 420px) {
+  .todoButton {
+    margin-top: 12px;
+  }
+}
