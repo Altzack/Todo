@@ -17,7 +17,7 @@ export default class App extends Component {
           checked: false,
         },
         {
-          name: "Git push master",
+          name: "Git push",
           checked: false,
         },
       ],
