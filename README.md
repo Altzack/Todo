@@ -1,3 +1,9 @@
+## TodoApp
+
+TodoApp is a todo list style web app that allows you to set a timer for each individual todo.
+
+Built with React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
