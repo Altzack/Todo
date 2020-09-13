@@ -1,0 +1,141 @@
+body {
+  background-image: linear-gradient(
+    to left bottom,
+    #9acff3,
+    #87bfe8,
+    #75aede,
+    #649ed3,
+    #538ec8,
+    #4282c5,
+    #3175c1,
+    #2068bc,
+    #025bbd,
+    #004dbc,
+    #073db9,
+    #212ab4
+  );
+  background-attachment: fixed;
+}
+.app {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todo {
+  background: rgb(243, 241, 241);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#itemForm {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.listItems {
+  margin-right: 50px;
+}
+.headerDiv {
+  display: flex;
+  justify-content: center;
+}
+.itemInput {
+  margin-top: 10px;
+  padding: 9px;
+  width: 200px;
+  margin-right: 10px;
+}
+.button {
+  padding: 0.6rem 1.5rem;
+  margin: 0.4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-style: groove;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:focus {
+  outline-width: 0;
+}
+
+.button-primary:hover {
+  background-color: #2641d4;
+  border: 1px solid #1b1f2b;
+}
+.time {
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+.button-primary-active {
+  background-color: #3151ff;
+  border: 1px solid #152684;
+  color: white;
+}
+
+.button-primary-inactive {
+  background-color: #3151ff;
+  border: 1px solid #152684;
+  color: white;
+}
+.button-secondary:hover {
+  background-color: #ff3333;
+}
+.todoButton {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+}
+.todoButton:hover {
+  cursor: pointer;
+}
+.formButton {
+  margin-left: 10px;
+  margin-top: 9px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+}
+.formButton:hover {
+  cursor: pointer;
+  background-color: rgb(31, 231, 31);
+}
+.todoName {
+  display: block;
+  max-width: 200px;
+}
+
+.todoTitle {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.delete:hover {
+  background-color: #ff3333;
+}
+.complete:hover {
+  background-color: aqua;
+}
+.header {
+  font-size: 50px;
+  color: #fff;
+}
