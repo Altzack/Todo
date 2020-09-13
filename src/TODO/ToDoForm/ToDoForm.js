@@ -10,10 +10,15 @@ export default class ToDoForm extends Component {
   render() {
     return (
       <form id="itemForm" onSubmit={this.handleSubmit}>
+        <label className="formLabel" htmlFor="itemToAdd">
+          Add item:
+        </label>
         <input
-          placeholder="add item..."
+          placeholder="Walk the dog..."
           className="itemInput"
           name="itemToAdd"
+          aria-required="true"
+          aria-label="Enter new todo"
           required
         ></input>
         <button type="submit" className="formButton">

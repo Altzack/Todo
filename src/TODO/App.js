@@ -16,10 +16,6 @@ export default class App extends Component {
           name: "Create Github repo",
           checked: false,
         },
-        {
-          name: "Git push",
-          checked: false,
-        },
       ],
     };
   }
