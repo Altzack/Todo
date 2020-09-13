@@ -1,6 +1,6 @@
 import React from "react";
-import Todo from "./ToDo";
-import ErrorBoundary from "./ErrorBoundary";
+import Todo from "../ToDo/ToDo";
+import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
 export default function ToDoList(props) {
   return (
     <div className="listItems">

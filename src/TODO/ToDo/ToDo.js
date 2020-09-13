@@ -1,6 +1,6 @@
 import React from "react";
-import Timer from "./Timer";
-import "./App.css";
+import Timer from "../Timer/Timer";
+import "../App.css";
 export default function ToDo(props) {
   return (
     <div
