@@ -12,10 +12,6 @@ export default class App extends Component {
           name: "Make cool todo app",
           checked: false,
         },
-        {
-          name: "Create Github repo",
-          checked: false,
-        },
       ],
     };
   }
