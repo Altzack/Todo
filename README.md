@@ -4,6 +4,8 @@ TodoApp is a todo list style web app that allows you to set a timer for each ind
 
 Built with React.
 
+Live link: https://todotimerapp.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
